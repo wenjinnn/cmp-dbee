@@ -187,7 +187,7 @@ function Handler:convert_to_completion_item(item)
   return {
     label = item.name,
     documentation = {
-      kind = "Markdown",
+      kind = "markdown",
       value = "```\n" .. self:get_documentation(item) .. "\n```",
     },
     -- kind = "[DB]",
