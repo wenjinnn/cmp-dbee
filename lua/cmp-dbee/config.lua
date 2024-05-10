@@ -37,39 +37,39 @@ config.default = {
   -- TODO: extend with more options
   cmp_menu = {
     schema = {
-      kind_text = "Constant",
+      kind_text = "Constructor",
       icon = "",
-      kind_hl_group = "Constant",
+      kind_hl_group = "Constructor",
     },
     table = {
-      kind_text = "Class",
+      kind_text = "Struct",
       icon = "ﰲ",
-      kind_hl_group = "Class",
+      kind_hl_group = "Struct",
     },
     view = {
-      kind_text = "Keyword",
+      kind_text = "Interface",
       icon = "ﰲ",
-      kind_hl_group = "Keyword",
+      kind_hl_group = "Interface",
     },
     columns = {
-      kind_text = "Structure",
+      kind_text = "Field",
       icon = "ﰲ",
-      kind_hl_group = "Structure",
+      kind_hl_group = "Field",
     },
     keyword = {
-      kind_text = "Conditional",
+      kind_text = "Keyword",
       icon = "",
-      kind_hl_group = "Conditional",
+      kind_hl_group = "Keyword",
     },
     alias = {
-      kind_text = "Function",
+      kind_text = "Reference",
       icon = "",
-      kind_hl_group = "Function",
+      kind_hl_group = "Constructor",
     },
     cte = {
-      kind_text = "Interface",
+      kind_text = "EnumMember",
       icon = "",
-      kind_hl_group = "Interface",
+      kind_hl_group = "Constructor",
     },
   },
 }
